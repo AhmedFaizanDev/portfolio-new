@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "portfolio",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": ["-c", "GITHUB_TOKEN=$(gh auth token) npm run dev -- -p 3100"],
+      "port": 3100
+    }
+  ]
+}
